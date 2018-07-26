@@ -1,6 +1,6 @@
 {
     "name": "@yorolling/vmodal.js",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A modal component for vue",
     "author": "YoRolling <walldr2161ly@gmail.com>",
     "main": "./dist/vmodal.min.js",
