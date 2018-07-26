@@ -1,7 +1,7 @@
 {
-    "name": "vue-modal.js",
+    "name": "@yorolling/vmodal.js",
     "version": "1.0.0",
-    "description": "a modal component ",
+    "description": "A modal component for vue",
     "author": "YoRolling <walldr2161ly@gmail.com>",
     "main": "./dist/vmodal.min.js",
     "keywords": [
@@ -11,6 +11,14 @@
         "components",
         "vue ui"
     ],
+    "repository": {
+        "url": "https://github.com/YoRolling/vue-modal.js",
+        "type": "git"
+    },
+    "bugs": {
+        "url": "https://github.com/YoRolling/vue-modal.js/issues"
+    },
+    "homepage": "https://github.com/YoRolling/vue-modal.js#readme",
     "scripts": {
         "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
         "start": "npm run dev",
@@ -19,8 +27,7 @@
         "lint": "eslint --ext .js,.vue src test/unit",
         "build": "node build/build.js"
     },
-    "dependencies": {
-    },
+    "dependencies": {},
     "devDependencies": {
         "vue": "^2.5.2",
         "autoprefixer": "^7.1.2",
